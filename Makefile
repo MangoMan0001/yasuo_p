@@ -1,5 +1,5 @@
-NAME = libftprintf.a
-SRCS = ft_printf.c
+NAME = yasuo.a
+SRCS = yasuo.c yasuo_utils.c ft_printf.c
 OBJS = $(SRCS:.c=.o)
 CC = cc
 CFLAG = -Wall -Wextra -Werror
