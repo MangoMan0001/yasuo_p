@@ -29,11 +29,13 @@ void omg_yasuo(int n)
 		srand((unsigned int)(value.tv_sec * 1000000 + value.tv_usec));
 		if (randomize())
 		{
+			sleep(1);
 			ft_printf(yasuo);
 			return ;
 		}
 		else
 		{
+			sleep(1);
 			ft_printf("はずれ\n");
 		}
 		i++;
